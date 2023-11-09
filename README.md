@@ -1,6 +1,5 @@
 # CustomView
-Use este projeto como desejar.
-Melhorias são bem vindas.
+Use este projeto como desejar.Melhorias são bem vindas.
 
 # Column Chart View
 
@@ -9,6 +8,10 @@ As "Custom Views" são desafiadoras e para estar preparado para encará-las , de
 # Ciclo de Vida da View e OOP
 
 Uma visualização que foi renderizada na tela deve passar por esses métodos de ciclo de vida para ser desenhada na tela.
+
+![image](https://github.com/ramonsatu/CustomView/assets/117767174/6838ec22-f185-433c-9462-83c1bb399600)
+
+
 
 As funções que nós vamos sobrescrever serão :
 
@@ -152,7 +155,7 @@ Nós estruturamos logicamente uma comibinação desses dois métodos para criar 
 
 ![image](https://github.com/ramonsatu/CustomView/assets/117767174/c95323ca-4c5a-4414-bb5a-3d79f7bde98e)
 
-Vale lembrar que temos um plano cartesiano como tela em branco. É importante que tenha em mente os conceitos de pares ordenados, produto cartesiano, funções. Também, é de suma importância reconhecer padrões e ordenar lógicamente as estruturados de dados encontradas.
+Vale lembrar que temos um plano cartesiano como tela em branco. É importante que tenha em mente os conceitos de pares ordenados, produto cartesiano, funções.
 
 # invalidate()
 

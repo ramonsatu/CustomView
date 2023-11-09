@@ -41,7 +41,7 @@ Você precisa de um "declare-styleable". Pode criá-lo dentro do diretório res/
 
 O nome do styeable deve ser o mesmo que  foi dado a class da vizualiação customizada.
 
-Criado o styeable , agora, você precisa de um typedArray para armazenar os atributos.
+Após ter criado o styleable, agora, você precisa de um typedArray para armazenar os atributos.
 
 ![image](https://github.com/ramonsatu/CustomView/assets/117767174/9e2eb0fa-d1af-447d-8fb8-7aecd1292303)
 

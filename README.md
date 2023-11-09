@@ -1,5 +1,10 @@
 # CustomView
-Use este projeto como desejar. Melhorias são bem vindas.
+Use este projeto como desejar.
+
+A arquitetura dessa implementação é MVVM.
+
+Melhorias são bem vindas.
+
 
 # Column Chart View
 
@@ -7,7 +12,7 @@ As "Custom Views" são desafiadoras e para estar preparado para encará-las , de
 
 # Ciclo de Vida da View e OOP
 
-Uma visualização que foi renderizada na tela deve passar por esses métodos de ciclo de vida para ser desenhada na tela.
+Uma visualização que foi renderizada na tela deve passar por esses métodos de ciclo de vida para ser desenhada corretamente.
 
 ![image](https://github.com/ramonsatu/CustomView/assets/117767174/6838ec22-f185-433c-9462-83c1bb399600)
 

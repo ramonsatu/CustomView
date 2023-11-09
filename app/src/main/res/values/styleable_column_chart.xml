@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ColumnChartView">
+        <attr name="xAxis_Color" format="color" />
+        <attr name="yAxis_Color" format="color" />
+        <attr name="background_xAxis_Color" format="color" />
+        <attr name="columnColor" format="color" />
+        <attr name="widthColumn" format="dimension" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="spaceBetweenColumns" format="dimension" />
+        <attr name="startFirstColumPosition" format="dimension" />
+        <attr name="xAxisStartingPosition" format="dimension" />
+        <attr name="numberOfColumns" format="integer" />
+        <attr name="numberOfItemsYAxis" format="integer" />
+        <attr name="moveTextsYAxisToRight" format="dimension" />
+        <attr name="yAxisTextColor" format="color" />
+        <attr name="yAxisTextSize" format="dimension" />
+        <attr name="xAxisTextColor" format="color" />
+        <attr name="xAxisTextSize" format="dimension" />
+        <attr name="marginBottomFirstLine" format="dimension" />
+        <attr name="spaceBetweenLinesXAxis" format="dimension" />
+        <attr name="moveYAxisToRight" format="dimension" />
+        <attr name="marginBottomTextColumnTop" format="dimension" />
+        <attr name="xAxisTextColorColumnTop" format="dimension" />
+        <attr name="xAxisTextSizeColumnTop" format="dimension" />
+        <attr name="expandYAxisBase" format="dimension"/>
+        <attr name="expandYAxisTop" format="dimension"/>
+    </declare-styleable>
+</resources>

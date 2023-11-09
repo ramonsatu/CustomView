@@ -13,7 +13,7 @@ Uma visualização que foi renderizada na tela deve passar por esses métodos de
 
 
 
-As funções que nós vamos sobrescrever serão :
+As funções que nós vamos sobrescrever são :
 
 ![image](https://github.com/ramonsatu/CustomView/assets/117767174/f33545f5-4b3e-425d-a791-dee4f54cf6b5)
 

@@ -126,7 +126,7 @@ No bloco init é onde você deve passar os valores dos atributos que virão do t
         }
       }
 
-Envolva as suas atribuições em um bloco try{}catch{}, dentro do catch{} declare "typedArray.recycle()".
+Envolva as suas atribuições em um bloco try{}finally{}, dentro do finally{} declare "typedArray.recycle()".
 
 Agora que sabemos o porquê da herança e como ter acesso aos atributos que são modificados dentro do editor de layout. Estamos prontos para entender o que faremos dentro das funções.
 

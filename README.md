@@ -48,7 +48,7 @@ Ex:
         app:xAxisTextSizeColumnTop="12sp"
         app:yAxisTextSize="12sp"/>
 
-# Como alterar, inserir dados no gráfico?
+# Como alterar ou inserir dados no gráfico?
 Você deve fazer isso em código.  
 Ex:
           

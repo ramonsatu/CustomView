@@ -154,9 +154,12 @@ Na chamada anterior (onMeasure()) nos calculamos os tamanhos e(ou) posições pa
     //Desenha textos
     canvas.drawText(text, x, y, paint)
 
+    //Desenha linhas
+    canvas.drawLine(start x, start y, stop x, stop y, paint)
+
     }
 
-Nós estruturamos logicamente uma combinação desses dois métodos para criar o gráfico de coluna a seguir:
+Nós estruturamos logicamente uma combinação desses métodos para criar o gráfico de coluna a seguir:
 
 ![image](https://github.com/ramonsatu/CustomView/assets/117767174/c95323ca-4c5a-4414-bb5a-3d79f7bde98e)
 

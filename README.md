@@ -6,16 +6,18 @@ A arquitetura dessa implementação estar em MVVM. Mas não se limita a ela.
 Contribuições são bem vindas.
 
 # Como usar o gráfico no seu projeto?
-Os arquivos necessários para que esse gráfico funcione corretamenta são:
+Os arquivos necessários para que este gráfico funcione corretamenta são:
 
 * ColumnGraphView.kt
 * interface SetData
 * styleable_column_chart.xml
 
+Depois de ter os arquivos em seu projeto bastar inserir o compomente em um layout.
+
 # Como organizar esses arquivos?
 O ColumnGraphView.kt e a interface SetData  devem ser inseridos dentro do mesmo pacote.
 
-O styleable_column_chart.xml pode mudar de lugar pedendo do projeto estar modularizado ou não.
+O styleable_column_chart.xml pode mudar de lugar dependendo do projeto estar modularizado ou não.
 
 Aplicação modularizada: insira o arquivo dentro do diretório res/value padrão do modulo central que contém os arquivos relacionados a UI.
 

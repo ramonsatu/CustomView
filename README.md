@@ -1,10 +1,70 @@
 # CustomView
-Use este projeto como desejar.
+Este projeto cotém a implementação de uma view customizada em formato de gráfico de coluna.
 
-A arquitetura dessa implementação é MVVM.
+A arquitetura dessa implementação estar em MVVM. Mas não se limita a ela.
 
-Melhorias são bem vindas.
+Contribuições são bem vindas.
 
+# Como usar o gráfico no seu projeto?
+Os arquivos necessários para que esse gráfico funcione corretamenta são:
+
+* ColumnGraphView.kt
+* interface SetData
+* styleable_column_chart.xml
+
+# Como organizar esses arquivos?
+O ColumnGraphView.kt e a interface SetData  devem ser inseridos dentro do mesmo pacote.
+
+O styleable_column_chart.xml pode mudar de lugar pedendo do projeto estar modularizado ou não.
+
+Aplicação modularizada: insira o arquivo dentro do diretório res/value padrão do modulo central que contém os arquivos relacionados a UI.
+
+Aplicação não modularizada: insira o arquivo dentro do diretório res/value padrão.
+
+# Como adaptar para tamanhos de telas diferentes?
+Use dimens com qualificadores para definir os valores dos atributos que são editáveis dentro do editor de layout xml.
+
+# Como editar o gráfico?
+Você deve editar o gráfico no editor de layout  
+Ex:
+        
+    <com.ramonpsatu.columnchart.customview.ColumnChartView
+        android:id="@+id/columnChartView"
+        android:layout_width="324dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="120dp"
+        app:background_xAxis_Color="#CFC3C3"
+        app:columnColor="#FF8400"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:moveTextsYAxisToRight="18dp"
+        app:spaceBetweenColumns="30dp"
+        app:spaceBetweenLinesXAxis="26dp"
+        app:startFirstColumPosition="12dp"
+        app:widthColumn="24dp"
+        app:xAxisStartingPosition="36dp"
+        app:xAxisTextSize="12sp"
+        app:xAxisTextSizeColumnTop="12sp"
+        app:yAxisTextSize="12sp"/>
+
+# Como alterar, inserir dados no gráfico?
+Você deve fazer isso em código.  
+Ex:
+          
+          binding.columnChartView.apply {
+            alterable = true
+            setColumnsHeight(heightsList)
+            setTextArrayByYAxis(valueyAxis)
+            setTextArrayByXAxis(textsXAxis)
+            setValuesArrayByXAxisColumnTop(columnTopValues)
+        }     
+
+
+
+# Atenção!
+O compomente pussui uma documentação interna que explica as relações entre os atributos.
+Continue a leitura para entender um pouco mais sobre a base da customização de uma view.
 
 # Column Chart View
 
@@ -173,5 +233,5 @@ O invalidate() precisa ser chamando quando houver uma mudança que afeta a apar�
 
 Este método é chamando para lidar com mudanças que afetam a largura e altura da view. O requestLayout() é o sinal para o sistema de que ele precisa recalcular os limites da view.
 
-# Não esquecer!
+# Para não esquecer!
 Por fim , não esqueça, que você deve salvar o estado da view quando necessário.

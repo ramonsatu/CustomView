@@ -133,7 +133,7 @@ Agora que sabemos o porquê da herança e como ter acesso aos atributos que são
 
 # Fun onAttachedToWindow()
 
-Aqui é onde nós podemos alocar recursos e configurar ouvintes, já que a view esta anexada a  janela.
+Aqui é onde nós podemos alocar recursos e configurar ouvintes, já que a view foi anexada a janela.
 
      override fun onAttachedToWindow() {
         super.onAttachedToWindow()

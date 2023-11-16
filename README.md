@@ -86,7 +86,7 @@ As funções que nós vamos sobrescrever são :
 ![image](https://github.com/ramonsatu/CustomView/assets/117767174/f33545f5-4b3e-425d-a791-dee4f54cf6b5)
 
 
-Antes de falar sobre cada uma delas, devemos lembrar de um dos piláres da Programação Orientada a Objetos, a Herança.
+Antes de explicar o que fazemos em cada uma dessas funções, devemos lembrar de um dos piláres da Programação Orientada a Objetos, a Herança.
 
 O que a Herança tem a ver com isso?
 

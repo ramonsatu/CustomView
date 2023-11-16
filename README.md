@@ -3,8 +3,6 @@ Este projeto cotém a implementação de uma view customizada em formato de grá
 
 A arquitetura dessa implementação estar em MVVM. Mas não se limita a ela.
 
-Contribuições são bem vindas.
-
 # Como usar o gráfico no seu projeto?
 Os arquivos necessários para que este gráfico funcione corretamenta são:
 
@@ -19,7 +17,8 @@ O ColumnGraphView.kt e a interface SetData  devem ser inseridos dentro do mesmo 
 
 O styleable_column_chart.xml pode mudar de lugar dependendo do projeto estar modularizado ou não.
 
-Aplicação modularizada: insira o arquivo dentro do diretório res/value padrão do modulo central que contém os arquivos relacionados a UI.
+Aplicação modularizada: insira o arquivo dentro do diretório res/value padrão do módulo central que contém os arquivos relacionados a UI
+ou dentro de um módulo que seja implementado do módulo que contém os arquivos ColumnGraphView.kt e interface SetData ou dentro do módulo próprietário dos arquivos.
 
 Aplicação não modularizada: insira o arquivo dentro do diretório res/value padrão.
 
@@ -68,13 +67,15 @@ Ex:
 O compomente pussui uma documentação interna que explica as relações entre os atributos.
 Continue a leitura para entender um pouco mais sobre a base da customização de uma view.
 
+Contribuições são bem vindas.
+
 # Column Chart View
 
 As "Custom Views" são desafiadoras e para estar preparado para encará-las , deve-se ter em mente o ciclo de vida da View e OOP.
 
 # Ciclo de Vida da View e OOP
 
-Uma visualização que foi renderizada na tela deve passar por esses métodos de ciclo de vida para ser desenhada corretamente.
+Uma visualização que foi renderizada na tela deve passar pelos métodos do ciclo de vida para ser desenhada corretamente.
 
 ![image](https://github.com/ramonsatu/CustomView/assets/117767174/6838ec22-f185-433c-9462-83c1bb399600)
 
@@ -221,11 +222,12 @@ Na chamada anterior (onMeasure()) nos calculamos os tamanhos e(ou) posições pa
 
     }
 
-Nós estruturamos logicamente uma combinação desses métodos para criar o gráfico de coluna a seguir:
+Vale lembrar que temos um plano cartesiano como tela em branco. É importante que tenha em mente os conceitos de pares ordenados, produto cartesiano, funções. 
+
+Organizamos de forma lógica uma estrutura que combina esses métodos para criar o gráfico de colunas a seguir:
 
 ![image](https://github.com/ramonsatu/CustomView/assets/117767174/c95323ca-4c5a-4414-bb5a-3d79f7bde98e)
 
-Vale lembrar que temos um plano cartesiano como tela em branco. É importante que tenha em mente os conceitos de pares ordenados, produto cartesiano, funções.
 
 # invalidate()
 

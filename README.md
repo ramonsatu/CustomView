@@ -90,7 +90,7 @@ Antes de explicar o que fazemos em cada uma dessas funções, devemos lembrar de
 
 O que a Herança tem a ver com isso?
 
-Para termos acesso aos métodos devemos ter a View como pai da nossa classe. 
+Para termos acesso aos métodos é preciso ter a classe View como pai da nossa classe. 
 
 Ao fazermos isso devemos escolher qual dos construtores vamos utilizar:
 
@@ -238,4 +238,4 @@ O invalidate() precisa ser chamando quando houver uma mudança que afeta a apar�
 Este método é chamando para lidar com mudanças que afetam a largura e altura da view. O requestLayout() é o sinal para o sistema de que ele precisa recalcular os limites da view.
 
 # Para não esquecer!
-Por fim , não esqueça, que você deve salvar o estado da view quando necessário.
+Por fim , não esqueça, você deve salvar o estado da view quando necessário.

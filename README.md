@@ -18,7 +18,7 @@ O ColumnGraphView.kt e a interface SetData  devem ser inseridos dentro do mesmo 
 O styleable_column_chart.xml pode mudar de lugar dependendo do projeto estar modularizado ou não.
 
 Aplicação modularizada: insira o arquivo dentro do diretório res/value padrão do módulo central que contém os arquivos relacionados a UI
-ou dentro de um módulo que seja implementado do módulo que contém os arquivos ColumnGraphView.kt e interface SetData ou dentro do módulo próprietário dos arquivos.
+ou dentro de um módulo que seja implementado no módulo que contém os arquivos ColumnGraphView.kt e interface SetData ou dentro do módulo próprietário dos arquivos.
 
 Aplicação não modularizada: insira o arquivo dentro do diretório res/value padrão.
 

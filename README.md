@@ -226,7 +226,8 @@ Vale lembrar que temos um plano cartesiano como tela em branco. É importante qu
 
 Organizamos de forma lógica uma estrutura que combina esses métodos para criar o gráfico de colunas a seguir:
 
-![image](https://github.com/ramonsatu/CustomView/assets/117767174/c95323ca-4c5a-4414-bb5a-3d79f7bde98e)
+![image](https://github.com/ramonsatu/CustomView/assets/117767174/408fc69a-cf87-4959-b36f-aebaf6eb0b47)
+
 
 
 # invalidate()
